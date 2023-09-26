@@ -1,0 +1,48 @@
+<h3>Add Entry</h3>
+<div class="row">
+    <form action="/entries" method="post" class="col s12">
+        <div class="row">
+            <div class="input-field">
+                <input type="text" id="title" name="title">
+                <label for="title">Title</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field">
+                <select id="category" name="category">
+                    <option value="speech progress" selected>Speech Progress</option>
+                    <option value="device maintainence">Device Maintainence</option>
+                    <option value="medication">Medication</option>
+                    <option value="reminder">Reminder</option>
+                    <option value="milestones">Milestones</option>
+                    <option value="research">Research</option>
+                    <option value="other">Other</option>
+
+                </select>
+                <label for="category">Category</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field">
+                <select id="visibility" name="visibility">
+                    <option value="private" selected>Private</option>
+                    <option value="public">Public</option>
+                    <option value="shared">Shared</option>
+                </select>
+                <label for="visibility">Visibility</label>
+            </div>
+        </div>
+
+         <div class="row">
+            <div class="input-field">
+                <h5>Start tracking your child's progress and device maintainence routine.</h5>
+                <textarea name="body" id="body"></textarea>
+            </div>
+
+            <div class="row">
+                <input type="submit" value="Save" class="btn">
+                <a href="/dashboard" class="btn orange">Cancel</a>
+            </div>
+    </form>
+</div>
