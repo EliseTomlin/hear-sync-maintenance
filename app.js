@@ -52,7 +52,7 @@ app.engine('.hbs',exphbs.engine({
         editIcon,
         select 
     },
-    defaulthLayout: 'main',
+    defaultLayout: 'main',
     extname: '.hbs'
     })
 );
@@ -90,5 +90,5 @@ const PORT = process.env.PORT || 3000
 
 app.listen(
     PORT, 
-    console.log('Server running in ${process.env.NODE_ENV} node on port ${PORT}')
+    console.log(`Server running in ${process.env.NODE_ENV} node on port ${PORT}`)
     )
