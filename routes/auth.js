@@ -12,7 +12,12 @@ router.get('/google', passport.authenticate('google',{ scope: ['profile']}))
 router.get('/google/callback', 
 passport.authenticate('google', { failureRedirect: '/'}), (req, res)=> {
     res.redirect('/dashboard')
-    })
+    },
+    (err,req,res,next) => {
+        console.error(err);
+        res.status(500).send('Internal Server Error');
+    }
+    );
 
 //@desc Logout User
 //@route /auth/logout
