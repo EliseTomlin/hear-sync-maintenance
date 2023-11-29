@@ -9,7 +9,7 @@ router.get('/google', passport.authenticate('google',{ scope: ['profile']}))
 
 //@desc google auth callback
 //@rout GET//auth/google/callback
-router.get('/google/callback', 
+router.get('https://hearsync.onrender.com/google/callback', 
 passport.authenticate('google', { failureRedirect: '/'}), (req, res)=> {
     res.redirect('/dashboard')
     },
