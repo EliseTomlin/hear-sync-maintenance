@@ -9,12 +9,13 @@ router.get('/google', passport.authenticate('google',{ scope: ['profile', 'email
 
 //@desc google auth callback
 //@rout GET/auth/google/callback
-router.get('/oauth2/google/callback', 
+router.get('/google/callback', 
 passport.authenticate('google', { failureRedirect: '/'}), (req, res)=> {
+    console.log('Google authentication successful');
     res.redirect('/dashboard')
     },
     (err,req,res,next) => {
-        console.error(err);
+        console.error('Google authentication error:', err);
         res.status(500).send('Internal Server Error');
     }
     );
