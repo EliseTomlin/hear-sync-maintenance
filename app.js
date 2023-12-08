@@ -8,7 +8,7 @@ const passport = require ('passport')
 const session = require ('express-session')
 const MongoStore = require('connect-mongo') //(session)
 const connectDB = require('./config/db')
-const cors = require('cors');
+// const cors = require('cors');
 
 //load config
 dotenv.config({ path: './config/config.env'})
@@ -23,8 +23,8 @@ const app = express()
 app.use(express.urlencoded({extended: false}))
 app.use(express.json())
 
-// Add CORS middleware here
-app.use(cors());
+// CORS middleware 
+// app.use(cors());
 
 // Method override
 app.use(
