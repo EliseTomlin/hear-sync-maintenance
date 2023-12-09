@@ -8,8 +8,8 @@ const router = express.Router()
 router.get('/google', passport.authenticate('google',{ scope: ['profile', 'email']}))
 
 //@desc google auth callback
-//@rout GET/auth/google/callback
-router.get('/google/callback', 
+//@route GET/auth/google/callback
+router.get('/auth/google/callback', 
 passport.authenticate('google', { failureRedirect: '/'}), (req, res)=> {
     res.redirect('/dashboard')
     }
