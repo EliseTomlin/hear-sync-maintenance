@@ -131,7 +131,7 @@ router.get('/user/:userId', ensureAuth, async (req,res)=>{
     try{
         const entries = await Entry.find({
             user:req.params.userId,
-            visibility: { $in: ['public', 'shared'] }
+            visibility: { $in: ['public'] }
 
         })
         .populate('user')
