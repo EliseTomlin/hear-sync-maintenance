@@ -3,8 +3,9 @@
 With parents who have childern with hearing loss in mind, this app will help organize speech progression and help keep track of hearing device maintainence.
 
   <a href="https://hearsync.onrender.com" target="_blank">
+    <img src="./public/images/hearsynchomeSS.PNG" width="200" alt="Alt Text 2">
     <img src="./public/images/hearsyncSS.PNG" width="200" alt="Alt Text 2">
-  </a>
+    </a>
 
 **Link to project:** [https://hearsync.onrender.com/](https://hearsync.onrender.com/)
 
