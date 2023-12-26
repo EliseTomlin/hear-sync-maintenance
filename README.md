@@ -1,6 +1,6 @@
 # HearSync
 
-With parents who have childern with hearing loss in mind, this app will help organize speech progression and help keep track of hearing device maintainence.
+With parents who have children with hearing loss in mind, this app will help organize speech progression and help keep track of hearing device maintenance.
 
   <a href="https://hearsync.onrender.com" target="_blank">
     <img src="./public/images/hearsynchomeSS.PNG" width="200" alt="Alt Text 2">
@@ -21,10 +21,10 @@ Right now the hosted version of this app is broken due to Google Auth issues tha
 
 If you would like to access the full app, please free to use http://localhost:3000
 
-\*I built the hearing device separately using React and will integrate it into this applicatation when I'm finished builing the server-side of the tracker app.
+\*I built the hearing device separately using React and will integrate it into this application when I'm finished building the server-side of the tracker app.
 
 I also need to play with the imaging for a more professional look.
 
 ## Lessons Learned:
 
-Test code more often before pushing to my GitHub account to save time from debugging.
+Test code more often before pushing it to my GitHub account to save time from debugging.
