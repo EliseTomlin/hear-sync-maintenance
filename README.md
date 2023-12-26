@@ -16,6 +16,10 @@ This is server-side rendered using the MERN stack, including Mongoose. The front
 
 ## Optimizations
 
+Right now the hosted version of this app is broken due to Google Auth issues that are currently in the process of being debugged.
+
+If you would like to access the full app, please free to use http://localhost:3000
+
 \*I built the hearing device separately using React and will integrate it into this applicatation when I'm finished builing the server-side of the tracker app.
 
 I also need to play with the imaging for a more professional look.
