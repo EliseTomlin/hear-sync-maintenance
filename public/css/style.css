@@ -1,3 +1,13 @@
+
+body{   background-image: url(https://bswh-p-001-delivery.sitecorecontenthub.cloud/api/public/content/5e66d2a2a05148c0bd6b875e2e0adf39?v=a555717e);
+    
+    background-repeat: no-repeat; 
+    background-position: center;
+    
+    
+ }
+
+
 p{
     margin: 10px 0 !important;
 }
@@ -19,3 +29,4 @@ p{
 .img-small{
     width: 180;
 }
+

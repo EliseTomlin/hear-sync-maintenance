@@ -16,7 +16,7 @@ const EntrySchema = new mongoose.Schema({
     visibility: {
         type: String,
         default: 'private',
-        enum: ['private', 'public', 'shared']
+        enum: ['private', 'public']
     },
     user: {
         type: mongoose.Schema.Types.ObjectId,
